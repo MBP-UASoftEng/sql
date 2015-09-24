@@ -12,7 +12,6 @@ CREATE TABLE tenderEntry (
       ON UPDATE NO ACTION ON DELETE NO ACTION
   -- I need to check that the tenderType is one of a set of valid values
   -- The valid values are: Cash, gift, Mastercard, VISA, Discover, AMEX, Debit
-  -- Also. I can't execute the script in pgAdmin. It says there's some kind of error, but doesn't specify what it is
 
 )
 
